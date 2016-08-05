@@ -1,0 +1,13 @@
+fuel-plugin-compute-local-storage_role:
+  # Role name
+  name: "Compute: Local Storage"
+  # Role description
+  description: "This compute node uses its local storage instead of the Ceph storage. The Compute role needs to be present additionally."
+  # If primary then during orchestration this role will be
+  # separated into primary-role and role
+  has_primary: false
+  # Assign public IP to node if true
+  public_ip_required: false
+  # Weight that will be used to sort out the
+  # roles on the Fuel web UI
+  weight: 1000
