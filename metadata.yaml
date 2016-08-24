@@ -3,7 +3,7 @@ name: fuel-plugin-compute-local-storage
 # Human-readable name for your plugin
 title: fuel-plugin-compute-local-storage
 # Plugin version
-version: '1.0.0'
+version: '1.0.1'
 # Description
 description: Adds a role for nodes to use its local storage instead of the Ceph storage
 # Required fuel version
